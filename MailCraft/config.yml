@@ -1,0 +1,18 @@
+# database connection parameters, just mysql atm
+db:
+  type: mysql
+  host: localhost
+  port: 3306
+  base: x
+  user: x
+  pass: x
+
+# if disabled everyone can do anything
+# except mailbox commands reserved to console admin and ops
+usePermissions: false
+
+# valid characters in subject and message
+# are based on character class REGEX, so avoid "^[-]$
+# also dont include pointless characters used in SQL INJECTION like '%
+# backslashes will be replaced by newlines and not listed chars by underscores
+validChars: -a-zA-Z0-9 .,:;!?()<>_=+-*/\\\\

@@ -1,0 +1,9 @@
+- (m) mail + mailbox admin subcommands (aliases in parenthesis)
+- rarely needed since mailboxes now works ok
+- mailbox created on first list folder or send mail (insert if not exists)
+
+(h) help (user help)
+(m c) mailbox create OWNER
+(m l) mailbox list PATTERN (sql like)
+(m d) mailbox delete OWNER
+(m r) mailbox rename CUROWNER NEWOWNER

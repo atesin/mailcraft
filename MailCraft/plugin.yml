@@ -1,0 +1,12 @@
+name: MailCraft
+main: cl.netgamer.mailcraft.MC
+version: 1
+
+commands:
+   mailcraft:
+      description: view and send ingame mails.
+      usage: "type '/mailcraft help' to get help"
+      aliases: [mail, m]
+
+# aqui tambien se configuran los permisos (ya no?)
+# no usar la letra enye

@@ -1,0 +1,10 @@
+TO DO:
+
+- sqlite support (but please use mariadb/mysql, just use sqlite in case you dont have)
+- send attachment/items .. i had thinking a functionality similar to MailTtems plugin
+- tabulated text output : please see this
+. - http://bukkit.org/threads/class-monospace-fixed-width-fonts.259459/
+. - https://bukkit.org/threads/text-alignment-in-chat.83895/
+. - surely there are other implementations out there .. watch out
+- make some restriction to use system, for example look a specific block type or block location
+- maybe your suggestions, use the tickets
